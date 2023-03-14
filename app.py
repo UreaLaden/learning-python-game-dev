@@ -11,6 +11,5 @@ while True:
     for event in pygame.event.get():
         if key[pygame.K_ESCAPE]:
             pygame.quit()
-            exit()
-    
+            exit()    
     pygame.time.Clock().tick(60)
